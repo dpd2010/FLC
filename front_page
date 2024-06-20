@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FLC - Fashionable Clothing</title>
+    <title>FLC - Flexible Luxury Clothing</title>
     <style>
         /* Basic styling for demonstration purposes */
         body {
@@ -14,10 +14,12 @@
         }
 
         header {
-            background-color: #333;
-            color: #fff;
-            padding: 10px;
+            background-color: palegoldenrod;
+            color: black;
+            padding: 50px;
             text-align: center;
+            font-family: ;
+            font-weight: bolder;
         }
 
         .hero {
@@ -29,8 +31,10 @@
             justify-content: center;
             align-items: center;
             text-align: center;
-            color: #fff;
+            color: black;
             font-size: 2rem;
+            background-color: #fff;
+            
         }
 
         .hero h1 {
@@ -73,8 +77,9 @@
 <body>
 
     <header>
-        <h1>FLC - Fashionable Clothing</h1>
-        <p>Welcome to the world of stylish and trendy fashion!</p>
+        <h1 style = "font-size: 50px;"">FLC - Flexible Luxury Clothing</h1>
+        <p style = "font-size: 20px;">Welcome to the world of stylish and trendy fashion!</p>
+        <p style = "font-size: 20px;">Here, you can get clothes that not only look nice but also will last you longer!</p>
     </header>
 
     <div class="hero">
@@ -99,7 +104,7 @@
         <section id="contact" class="section">
             <h2>Contact Us</h2>
             <p>Have a question or feedback? Get in touch with us!</p>
-            <p>Email: info@flcclothing.com<br>
+            <p>Email: dakshmishra@gmail.com<br>
             Phone: +1 (123) 456-7890</p>
         </section>
     </div>
